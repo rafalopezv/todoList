@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <center><h1>To-do list</h1></center>
+    <h3 class ="indications">Want to add an item?: write it and press enter</h3>
+    <h3 class ="indications">Want to remove an item?: Just click on it</h3>
+    
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+<center><lord-icon
+    src="https://cdn.lordicon.com/wloilxuq.json"
+    trigger="hover"
+    colors="primary:#f3c748,secondary:#0f232f"
+    stroke="47"
+    scale="50"
+    style="width:100px;height:100px">
+</lord-icon></center>
+
+    <!-- we will put our teact component inside this div -->
+    <center><div id="root"></div></center>
+    
+
+    <br>
+    <br>
+    
+    
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react component. -->
+    <script src="form.js" defer type="text/babel"></script>
+    <script src="todo.js" defer type="text/babel"></script>
+    <script src="index.js" defer type="text/babel"></script>
+
+    
+</body>
+</html>

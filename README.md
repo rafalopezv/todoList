@@ -1,6 +1,7 @@
 # About
 
 - Front end to list app. Does not have back end connection
+- Just practicing JS code
 
 # How to run it
 
